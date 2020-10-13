@@ -32,6 +32,15 @@ module.exports = {
   coveragePathIgnorePatterns: [
     '/node_modules/',
     'src/server.ts',
+    'src/services/users/',
+    'src/services/movies/',
+    'src/services/admins/index.ts',
+    'src/services/index.ts',
+    'src/initializers',
+    'src/migrations',
+    'src/models',
+    'src/app.ts',
+    'src/routes.ts',
     '/__tests__/helpers.ts',
   ],
 

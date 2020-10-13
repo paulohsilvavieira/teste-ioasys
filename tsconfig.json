@@ -5,13 +5,16 @@
     "noUnusedLocals": true,
     "esModuleInterop": true,
     "sourceMap": true,
-    "strict": true,
+    "strict": false,
     "target": "es2015",
     "resolveJsonModule": true,
+    "outDir": "build",
     "typeRoots": [
       "./node_modules/@types/",
       "./src/typings"
-    ]
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
   },
   "compileOnSave": true,
   "include": ["src"],
